@@ -7,4 +7,4 @@ export const DB_PATH = process.env.DB_PATH ?? 'data/checklister.db'
 // If set, every change re-writes <SYNC_DIR>/<name>.md so other tools (Obsidian, git…) stay in sync.
 export const SYNC_DIR = process.env.SYNC_DIR
 // Max characters of page text sent to the model in one request.
-export const CHUNK_CHARS = 20000
+export const CHUNK_CHARS = 12000
